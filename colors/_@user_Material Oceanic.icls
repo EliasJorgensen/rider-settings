@@ -4,20 +4,15 @@
     <property name="created">2018-01-26T10:07:34</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2018-06-27T09:54:07</property>
+    <property name="modified">2018-09-02T18:17:21</property>
     <property name="originalScheme">Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Operator Mono Lig Medium" />
-    <option name="EDITOR_FONT_SIZE" value="13" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Fira Code Medium" />
-    <option name="EDITOR_FONT_SIZE" value="13" />
-  </font>
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="Operator Mono Lig" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="c3e88d" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -676,6 +671,11 @@
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
         <option name="FOREGROUND" value="82aaff" />
+      </value>
+    </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="eeffe3" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -1347,7 +1347,6 @@
     <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
       <value />
     </option>
-    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -1358,7 +1357,6 @@
         <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD">
       <value />
     </option>
@@ -1409,7 +1407,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="List/map to object conversion" baseAttributes="JAVA_NUMBER" />
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="908b25" />
@@ -3261,11 +3258,6 @@
     <option name="ReSharper.LATE_BOUND_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="eeffff" />
-      </value>
-    </option>
-    <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="eeffe3" />
       </value>
     </option>
     <option name="ReSharper.NAMESPACE_IDENTIFIER">
